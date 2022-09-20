@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.header {
+    background-image: url('./bg.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+}
+
+.menuTitle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.menuLink {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.headerContent{
+    margin-top: 30%;
+}
+
+.headerTitle {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.headerLink {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+}
+
+.headerLink:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.menuLink:hover {
+    border-bottom: 1px solid white;
+}
+
+.aboutPart {
+    height: 100vh;
+}
+
+.aboutContent {
+    width: 50%;
+    margin: auto;
+    padding-top: 170px;
+}
+
+.aboutTitle {
+    font-size: 70px;
+    text-align: center;
+}
+
+.aboutText {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.aboutButton {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+}
+
+.aboutButton:hover {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    transition: 0.3s;
+}
+
+.projects {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    padding-top: 120px;
+}
+
+.projectTitle {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projestItems {
+    display: flex;
+    gap: 20px;
+}
+
+.itemCard {
+    width: 350px;
+}
+
+.photoWrapper {
+    overflow: hidden;
+    height: 240px;
+}
+
+.cardPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.cardText {
+    color: white;
+}
+
+.projectsButton {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.projectsButton:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transition: 0.3s;
+}
+
+.servicesContent {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.services {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.servicesLeft {
+    width: 40%;
+}
+
+.servicesTitle {
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.servicesLink {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 13px;
+    margin-top: 60px;
+}
+
+.servicesRight {
+    list-style: none;
+    font-size: 24px;
+}
+
+.itemNumber {
+    font-weight: 600;
+    font-size: 70px;
+    margin-right: 20px;
+}
+
+.servicesItem {
+    margin-bottom: 20px;
+}
+
+.carees {
+    height: 100vh;
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+}
+
+.careesContentfl {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+
+.careesContent{
+    width: 35%;
+}
+
+.careesTitle {
+    font-size: 70px;
+}
+
+.careesButton {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 13px;
+    margin-top: 50px;
+}
+
+.stornoway {
+    height: 40vh;
+    background-color: black;
+}
+
+.stornowayContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+}
+
+.stornowayLeft {
+    width: 50%;
+}
+
+.leftText {
+    color: white;
+    font-size: 30px;
+}
+
+.rightText {
+    color: white;
+    display: block;
+}
+
+.rightText2 {
+    color: white;
+    display: block;
+    margin-top: 60px;
+}
